@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+/* Dùng Ctrl+/ để tạo chú thích */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ---------------HEADER----------------- */
+
+.header ul{
+    list-style-type: none;
+}
+.header ul, li{
+    display: inline;
+    padding: 0 15px;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 135px;
+    align-items: center;
+}
+.header img{
+    height: 20px;
+}
+.benphai p{
+    padding: 20px;
+    display: inline;
+}
+.nutmaucam{
+    padding: 9px 19px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+
+/*---------------BODY-----------------*/
+
+.banner h1{
+    font-weight: 800px;font-size: 80px;
+}
+.banner p{
+    width: 463px;
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    height: 530px;
+    background-color: #1F0A00;
+    color: white;
+    padding: 85px 135px;
+}
+.banner img{
+    height: 100%;;
+}
+/*---------------SEC 2-----------------*/
+.sec2{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.sec3{
+    text-align: center;
+
+
+}
+.sec3 p{
+    text-align: center;
+    padding: 10px;
+}    
+.motdong{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+.card:hover{
+    background-color: #fe5000;
+    color: white;
+}
+
+/*---------------SEC 4-----------------*/
+
+.sec4{
+    background-color: #FFFAF8;
+    height: 1430px;
+    text-align: center;
+}
+.sec4 p{
+    width: 29%;
+    margin: 0 auto;
+    /*margin 0 auto Dùng để canh giữa các nội dung inline */
+    padding: 100px 135px;
+
+}
+.dong{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+.cardlon{
+    background-color: white;
+    border-radius: 14px;
+    text-align: left;
+    padding: 22px;
+    width: 25%;
+}
+.cardlon img{
+    width: 100%;
+    /* Trường hợp này, set 100% để canh chỉnh hình ảnh theo div đã cài đặt trước đó (không phải là 100% kích thước thực của hình) */
+}
+.dongcta{
+    display: flex;
+    justify-content: space-between;
+}
+.dongcta input{
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 5px 14px;
+    border: 1px solid #C6CBC6;
+}
